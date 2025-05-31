@@ -1,6 +1,6 @@
 import Button from "@/components/common/Button";
 import {useNavigate} from "react-router-dom";
-import HomeBackGround from "@/assets/img/home-background.png";
+import HomeBackGround from "@/assets/img/dev.jpeg";
 import {useRecoilValue} from "recoil";
 import {themeState} from "@/recoil/theme";
 import useFireStoreData from "@/api/useFireStoreData";
@@ -64,7 +64,7 @@ function Home() {
 
   return (
     <>
-      <h1 className="font-dote text-6xl">너 T야?</h1>
+      <h1 className="font-dote text-6xl"> 너, 개발자가 되라! </h1>
       <div className="py-8">
         <img
           src={HomeBackGround}
@@ -72,12 +72,12 @@ function Home() {
           className="object-fill max-w-[31.25rem] p-3 rounded-[4px]"
         />
       </div>
-      <p className="font-dote text-2xl">6가지 문제로 알아보는 T력 테스트</p>
+      <p className="font-dote text-2xl">8가지 문제로 알아보는 개발자 유형 테스트 </p>
 
       <Button
         onClick={handleMoveQuestionPage(firstPageId)}
         className={`${buttonTheme} border-none my-6 rounded-lg p-5 font-alice font-bold shadow-2xl`}>
-        T력 테스트하러 가기!
+        개발자 유형 테스트하러 가기 !
       </Button>
       <div className="flex gap-3">
         <ShareButton iconType="kakao" onClick={handleShareResultKaKao} />
