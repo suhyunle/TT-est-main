@@ -1,7 +1,7 @@
 import {motion} from "framer-motion";
 
 function LoadingResult() {
-  const text = "당신과 닮은 강아지는? ".split(" ");
+  const text = "당신의 타입과 맞는 개발자는? ".split(" ");
 
   return (
     <div className="flex gap-2 flex-row items-center justify-center">
