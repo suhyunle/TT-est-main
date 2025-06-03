@@ -37,7 +37,7 @@ function Question() {
   };
 
   if (loading) {
-    return <Loading loadingText="강아지가 질문을 운반중입니다..🤖" />;
+    return <Loading loadingText="개발자가 질문을 운반중입니다..🤖" />;
   }
 
   if (loadingResult) {
