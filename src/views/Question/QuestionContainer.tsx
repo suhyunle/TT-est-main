@@ -66,7 +66,7 @@ function QuestionContainer({
     if (isLastIndex) {
       showAlert(
         "error",
-        "마지막 질문입니다!",
+        "질문이 끝났습니다",
         "분석결과 확인하기 버튼을 눌러보세요"
       );
     } else {
