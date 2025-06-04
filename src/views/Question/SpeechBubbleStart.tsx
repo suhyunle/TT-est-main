@@ -16,7 +16,7 @@ function SpeechBubbleStart({chatText}: ISpeechBubbleStartProps) {
           </div>
         </div>
         <div className="chat-header pb-2">
-          췍 GPT
+          당신
           <time className="text-xs opacity-50 pl-2">{time}</time>
         </div>
         <div className="chat-bubble bg-white text-zinc-950">{chatText}</div>
